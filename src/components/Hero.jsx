@@ -11,7 +11,7 @@ const Hero = () => {
     <>
       <section className={`relative mx-auto h-screen w-full`}>
         <div
-          className={`absolute inset-0 top-[100px] mx-auto  max-w-7xl sm:top-[150px] ${styles.paddingX} flex flex-row items-start gap-5`}
+          className={`absolute inset-0 top-[50px] mx-auto  max-w-7xl sm:top-[150px] ${styles.paddingX} flex flex-row items-start gap-5`}
         >
           <div className="flex gap-3">
             <div className="flex flex-col items-center justify-center">
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
         </div>
         <ComputersCanvas />
-        <div className="absolute bottom-[20dvw] xxs:bottom-[10dvh] flex w-full items-center justify-center">
+        <div className="absolute bottom-[35lvw] xxs:bottom-[10dvh] flex w-full items-center justify-center">
           <a href="#about" className="flex h-[60px] w-[40px] rounded-2xl border-4 border-black dark:border-secondary">
             <motion.div
               animate={{
